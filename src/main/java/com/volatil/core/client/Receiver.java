@@ -1,12 +1,12 @@
-package volatil.client;
+package com.volatil.core.client;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.Socket;
 
-import volatil.utils.Clean;
-import volatil.utils.Logger;
+import com.volatil.core.utils.Clean;
+import com.volatil.core.utils.Logger;
 
 public abstract class Receiver extends Thread implements Clean {
   private final int SLEEP_TIME = 100;

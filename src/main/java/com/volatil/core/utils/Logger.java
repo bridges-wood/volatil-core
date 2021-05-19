@@ -1,4 +1,4 @@
-package volatil.utils;
+package com.volatil.core.utils;
 
 public class Logger {
   private String source;

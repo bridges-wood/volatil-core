@@ -1,12 +1,12 @@
-package volatil.client;
+package com.volatil.core.client;
 
 import java.io.IOException;
 import java.net.Socket;
 
-import volatil.utils.Clean;
-import volatil.utils.CommandParser;
-import volatil.utils.Logger;
-import volatil.utils.Message;
+import com.volatil.core.utils.Clean;
+import com.volatil.core.utils.CommandParser;
+import com.volatil.core.utils.Logger;
+import com.volatil.core.utils.Message;
 
 public abstract class Client implements Clean {
   private final String DEFAULT_IP = "localhost";

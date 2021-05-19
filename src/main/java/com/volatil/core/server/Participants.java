@@ -1,11 +1,11 @@
-package volatil.server;
+package com.volatil.core.server;
 
 import java.util.LinkedList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import volatil.utils.Logger;
-import volatil.utils.Message;
+import com.volatil.core.utils.Logger;
+import com.volatil.core.utils.Message;
 
 public class Participants {
   private static LinkedList<ClientHandler> clients = new LinkedList<ClientHandler>();

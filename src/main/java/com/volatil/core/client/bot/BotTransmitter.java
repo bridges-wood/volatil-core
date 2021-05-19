@@ -1,11 +1,11 @@
-package volatil.client.bot;
+package com.volatil.core.client.bot;
 
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import volatil.client.Client;
-import volatil.client.Transmitter;
-import volatil.utils.MessageQueue;
+import com.volatil.core.client.Client;
+import com.volatil.core.client.Transmitter;
+import com.volatil.core.utils.MessageQueue;
 
 public class BotTransmitter extends Transmitter {
   private int SLEEP_TIME = 100;

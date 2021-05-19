@@ -1,13 +1,13 @@
-package volatil.server;
+package com.volatil.core.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 
-import volatil.utils.CommandParser;
-import volatil.utils.ExitHandler;
-import volatil.utils.Logger;
+import com.volatil.core.utils.CommandParser;
+import com.volatil.core.utils.ExitHandler;
+import com.volatil.core.utils.Logger;
 
 public class ChatServer {
   private static final int DEFAULT_PORT = 14001;

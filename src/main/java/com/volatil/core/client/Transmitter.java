@@ -1,11 +1,11 @@
-package volatil.client;
+package com.volatil.core.client;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import volatil.utils.Clean;
-import volatil.utils.Logger;
+import com.volatil.core.utils.Clean;
+import com.volatil.core.utils.Logger;
 
 public abstract class Transmitter extends Thread implements Clean {
   private final int SLEEP_TIME = 100;

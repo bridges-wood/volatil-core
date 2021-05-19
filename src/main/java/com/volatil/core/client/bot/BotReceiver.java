@@ -1,12 +1,12 @@
-package volatil.client.bot;
+package com.volatil.core.client.bot;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.net.Socket;
 
-import volatil.client.Receiver;
-import volatil.utils.Logger;
-import volatil.utils.MessageQueue;
+import com.volatil.core.client.Receiver;
+import com.volatil.core.utils.Logger;
+import com.volatil.core.utils.MessageQueue;
 
 public class BotReceiver extends Receiver {
   private int SLEEP_TIME = 100;

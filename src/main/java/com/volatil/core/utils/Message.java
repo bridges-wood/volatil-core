@@ -1,4 +1,4 @@
-package volatil.utils;
+package com.volatil.core.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

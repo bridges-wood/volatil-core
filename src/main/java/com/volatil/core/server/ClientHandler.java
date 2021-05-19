@@ -1,4 +1,4 @@
-package volatil.server;
+package com.volatil.core.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import volatil.utils.Clean;
-import volatil.utils.Logger;
-import volatil.utils.Message;
+import com.volatil.core.utils.Clean;
+import com.volatil.core.utils.Logger;
+import com.volatil.core.utils.Message;
 
 public class ClientHandler extends Thread implements Clean {
   private static final int SLEEP_TIME = 100;

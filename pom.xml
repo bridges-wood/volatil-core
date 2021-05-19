@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.volatil</groupId>
   <artifactId>core</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>jar</packaging>
   <name>volatil-core</name>
 
@@ -13,7 +13,6 @@
   </properties>
 
   <build>
-    <finalName>server</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -23,7 +22,7 @@
           <archive>
             <index>true</index>
             <manifest>
-              <mainClass>volatil.server.ChatServer</mainClass>
+              <mainClass>com.volatil.core.server.ChatServer</mainClass>
             </manifest>
           </archive>
         </configuration>

@@ -1,4 +1,4 @@
-package volatil.utils;
+package com.volatil.core.utils;
 
 import java.util.LinkedList;
 import java.util.Queue;

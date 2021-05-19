@@ -1,4 +1,4 @@
-package volatil.utils;
+package com.volatil.core.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
